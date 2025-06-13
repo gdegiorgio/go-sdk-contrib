@@ -1,5 +1,42 @@
 # Changelog
 
+## [0.2.0-alpha](https://github.com/gdegiorgio/go-sdk-contrib/compare/providers/unleash-v0.1.0-alpha...providers/unleash/v0.2.0-alpha) (2025-06-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to Unlease Go Client v4 ([#620](https://github.com/gdegiorgio/go-sdk-contrib/issues/620))
+
+### 🐛 Bug Fixes
+
+* **deps:** update module github.com/open-feature/go-sdk to v1.11.0 ([#501](https://github.com/gdegiorgio/go-sdk-contrib/issues/501)) ([3f0eaa5](https://github.com/gdegiorgio/go-sdk-contrib/commit/3f0eaa575500baa663dc24dbfc6cf8214565471f))
+* **deps:** update module github.com/open-feature/go-sdk to v1.8.0 ([#329](https://github.com/gdegiorgio/go-sdk-contrib/issues/329)) ([c99b527](https://github.com/gdegiorgio/go-sdk-contrib/commit/c99b52728bad9dce52bfb78a08ae5f4eea83a397))
+* **deps:** update module github.com/stretchr/testify to v1.9.0 ([#470](https://github.com/gdegiorgio/go-sdk-contrib/issues/470)) ([5263567](https://github.com/gdegiorgio/go-sdk-contrib/commit/52635679b633e01e23196885a4a98d3cecbc8822))
+* **deps:** update module github.com/unleash/unleash-client-go/v3 to v3.9.2 ([#368](https://github.com/gdegiorgio/go-sdk-contrib/issues/368)) ([64ceb14](https://github.com/gdegiorgio/go-sdk-contrib/commit/64ceb14a50ebe065106b83dde50269dce3ce4d25))
+* float evaluation ([#465](https://github.com/gdegiorgio/go-sdk-contrib/issues/465)) ([f631417](https://github.com/gdegiorgio/go-sdk-contrib/commit/f631417d3b545c075253d7b83ccd20366bcdd833))
+* IntEvaluation when cannot be parsed ([#607](https://github.com/gdegiorgio/go-sdk-contrib/issues/607)) ([9343d2d](https://github.com/gdegiorgio/go-sdk-contrib/commit/9343d2d60b6c70ac4d9cb9e8d0d84928bad2ad5a))
+* IntEvalution, FloatEvalution when disabled or missing flags ([#610](https://github.com/gdegiorgio/go-sdk-contrib/issues/610)) ([4077d5a](https://github.com/gdegiorgio/go-sdk-contrib/commit/4077d5aa048ab0978747dbf0b47a563090ba58a0))
+
+
+### ✨ New Features
+
+* Add Statsig provider ([#445](https://github.com/gdegiorgio/go-sdk-contrib/issues/445)) ([409a06f](https://github.com/gdegiorgio/go-sdk-contrib/commit/409a06fcf0157469495cf759692f333ae9d808f6))
+* Add Unleash Provider ([#338](https://github.com/gdegiorgio/go-sdk-contrib/issues/338)) ([a9c51cf](https://github.com/gdegiorgio/go-sdk-contrib/commit/a9c51cf55bb1051a81cf448ffc735dfd70700a84))
+* upgrade to Unlease Go Client v4 ([#620](https://github.com/gdegiorgio/go-sdk-contrib/issues/620)) ([5f1e4f2](https://github.com/gdegiorgio/go-sdk-contrib/commit/5f1e4f242de6b281a5f11bc75fd9bb8f6949cec6))
+* upgrade to unleash-client-go v3.9.0 ([#373](https://github.com/gdegiorgio/go-sdk-contrib/issues/373)) ([899aae1](https://github.com/gdegiorgio/go-sdk-contrib/commit/899aae1f4f13446225333579e9024cd3c1a93a42))
+
+
+### 🧹 Chore
+
+* add license to module ([#554](https://github.com/gdegiorgio/go-sdk-contrib/issues/554)) ([abb7657](https://github.com/gdegiorgio/go-sdk-contrib/commit/abb76571c373582f36837587400104eb754c01b9))
+* bump Go to version 1.21 ([#452](https://github.com/gdegiorgio/go-sdk-contrib/issues/452)) ([7ec90ce](https://github.com/gdegiorgio/go-sdk-contrib/commit/7ec90ce4f9b06670187561afd9e342eed4228be1))
+* **main:** release providers/unleash 0.0.2-alpha ([#346](https://github.com/gdegiorgio/go-sdk-contrib/issues/346)) ([91c7745](https://github.com/gdegiorgio/go-sdk-contrib/commit/91c7745f96d196d9676ae5f6331a8dbc2de943da))
+* **main:** release providers/unleash 0.0.3-alpha ([#352](https://github.com/gdegiorgio/go-sdk-contrib/issues/352)) ([6f35151](https://github.com/gdegiorgio/go-sdk-contrib/commit/6f35151631c6420559607786297dcaedd0836ecc))
+* **main:** release providers/unleash 0.0.4-alpha ([#504](https://github.com/gdegiorgio/go-sdk-contrib/issues/504)) ([78d48f9](https://github.com/gdegiorgio/go-sdk-contrib/commit/78d48f9823a1571f7cf62626219ebdd818b33c84))
+* **main:** release providers/unleash 0.0.5-alpha ([#609](https://github.com/gdegiorgio/go-sdk-contrib/issues/609)) ([353dbb1](https://github.com/gdegiorgio/go-sdk-contrib/commit/353dbb1e84c62f701d7484af88e2e89be82da30a))
+* **main:** release providers/unleash 0.1.0-alpha ([#611](https://github.com/gdegiorgio/go-sdk-contrib/issues/611)) ([9d9ffa2](https://github.com/gdegiorgio/go-sdk-contrib/commit/9d9ffa213369b5d13820e1bee4eb9a52ec617987))
+* update to go-sdk 1.9.0 ([#404](https://github.com/gdegiorgio/go-sdk-contrib/issues/404)) ([11fa3ab](https://github.com/gdegiorgio/go-sdk-contrib/commit/11fa3aba065a6dd81caca30e76efc16fb64a25e3))
+
 ## [0.1.0-alpha](https://github.com/open-feature/go-sdk-contrib/compare/providers/unleash/v0.0.5-alpha...providers/unleash/v0.1.0-alpha) (2025-02-07)
 
 
