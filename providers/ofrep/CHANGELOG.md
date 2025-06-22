@@ -1,5 +1,36 @@
 # Changelog
 
+## [0.1.7](https://github.com/gdegiorgio/go-sdk-contrib/compare/providers/ofrep-v0.1.6...providers/ofrep/v0.1.7) (2025-06-22)
+
+
+### 🐛 Bug Fixes
+
+* Default GO parsing is float64 for int ([#539](https://github.com/gdegiorgio/go-sdk-contrib/issues/539)) ([2f6a40e](https://github.com/gdegiorgio/go-sdk-contrib/commit/2f6a40e6a6ffa75ac583aaaee6a937d8ab10ca19))
+* **deps:** bump open-feature/go-sdk from v1.11 to v1.15 ([#686](https://github.com/gdegiorgio/go-sdk-contrib/issues/686)) ([ce87102](https://github.com/gdegiorgio/go-sdk-contrib/commit/ce871021d0c45d3c992bb00b33c8b7a8e337e9a3))
+* **deps:** update module github.com/open-feature/go-sdk to v1.11.0 ([#501](https://github.com/gdegiorgio/go-sdk-contrib/issues/501)) ([3f0eaa5](https://github.com/gdegiorgio/go-sdk-contrib/commit/3f0eaa575500baa663dc24dbfc6cf8214565471f))
+* **deps:** update module github.com/open-feature/go-sdk to v1.15.1 ([#681](https://github.com/gdegiorgio/go-sdk-contrib/issues/681)) ([8fd544f](https://github.com/gdegiorgio/go-sdk-contrib/commit/8fd544ff81fd25eed655a214aa1ae1906a436f0d))
+* Don't panic if metadata not present in the response ([#537](https://github.com/gdegiorgio/go-sdk-contrib/issues/537)) ([f0b5547](https://github.com/gdegiorgio/go-sdk-contrib/commit/f0b554746934b496902563c2fdf7cb68bf8e2f1d))
+* Make OFREP option public ([#536](https://github.com/gdegiorgio/go-sdk-contrib/issues/536)) ([b005dce](https://github.com/gdegiorgio/go-sdk-contrib/commit/b005dce8126476fb893914f0b631305015dee91f))
+* **ofrep:** close http response body after using it ([#576](https://github.com/gdegiorgio/go-sdk-contrib/issues/576)) ([02a3b5d](https://github.com/gdegiorgio/go-sdk-contrib/commit/02a3b5d17e402573384f65efcc0b32e7863dd8e6))
+* **ofrep:** Manage disabled flag ([#543](https://github.com/gdegiorgio/go-sdk-contrib/issues/543)) ([b4dd97d](https://github.com/gdegiorgio/go-sdk-contrib/commit/b4dd97d06fad07afdfb4cb725194f558e0a685b1))
+* Should return a parse error if error while parsing ([#538](https://github.com/gdegiorgio/go-sdk-contrib/issues/538)) ([1e2a7f4](https://github.com/gdegiorgio/go-sdk-contrib/commit/1e2a7f4abb2fb48ca5047b7e4aa16cfc50a199a8))
+
+
+### ✨ New Features
+
+* introduce OFREP provider   ([#477](https://github.com/gdegiorgio/go-sdk-contrib/issues/477)) ([a1cb699](https://github.com/gdegiorgio/go-sdk-contrib/commit/a1cb699d4903502797a1184b79372b45ac1ef0b2))
+
+
+### 🧹 Chore
+
+* add license to module ([#554](https://github.com/gdegiorgio/go-sdk-contrib/issues/554)) ([abb7657](https://github.com/gdegiorgio/go-sdk-contrib/commit/abb76571c373582f36837587400104eb754c01b9))
+* **main:** release providers/ofrep 0.1.1 ([#494](https://github.com/gdegiorgio/go-sdk-contrib/issues/494)) ([9a7684d](https://github.com/gdegiorgio/go-sdk-contrib/commit/9a7684dccef7af3049ee60d976447a499a450c92))
+* **main:** release providers/ofrep 0.1.2 ([#507](https://github.com/gdegiorgio/go-sdk-contrib/issues/507)) ([e6c65be](https://github.com/gdegiorgio/go-sdk-contrib/commit/e6c65beb55860aace432762d02d6737e45442543))
+* **main:** release providers/ofrep 0.1.3 ([#540](https://github.com/gdegiorgio/go-sdk-contrib/issues/540)) ([fe29ca4](https://github.com/gdegiorgio/go-sdk-contrib/commit/fe29ca472f63b394a7d01031fad5b5f9d58b6781))
+* **main:** release providers/ofrep 0.1.4 ([#544](https://github.com/gdegiorgio/go-sdk-contrib/issues/544)) ([5f466ab](https://github.com/gdegiorgio/go-sdk-contrib/commit/5f466ab70a56e91de2783705145609e3c65a3898))
+* **main:** release providers/ofrep 0.1.5 ([#574](https://github.com/gdegiorgio/go-sdk-contrib/issues/574)) ([b0da78e](https://github.com/gdegiorgio/go-sdk-contrib/commit/b0da78e65a2d1f8b5ef4663ad3a04fe45c249846))
+* **main:** release providers/ofrep 0.1.6 ([#694](https://github.com/gdegiorgio/go-sdk-contrib/issues/694)) ([423d0bc](https://github.com/gdegiorgio/go-sdk-contrib/commit/423d0bc778a2f823558ae1108ac25b62ab8ba634))
+
 ## [0.1.6](https://github.com/open-feature/go-sdk-contrib/compare/providers/ofrep/v0.1.5...providers/ofrep/v0.1.6) (2025-06-19)
 
 
