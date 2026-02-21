@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.6.0](https://github.com/gioddiggi/go-sdk-contrib/compare/tests/flagd-v1.5.0...tests/flagd/v1.6.0) (2025-10-16)
+
+
+### 🐛 Bug Fixes
+
+* add missing configuration for tests ([#738](https://github.com/gioddiggi/go-sdk-contrib/issues/738)) ([8f21b1f](https://github.com/gioddiggi/go-sdk-contrib/commit/8f21b1fc1452649149a493caeb100f01bdca7cd9))
+* **deps:** bump open-feature/go-sdk from v1.11 to v1.15 ([#686](https://github.com/gioddiggi/go-sdk-contrib/issues/686)) ([ce87102](https://github.com/gioddiggi/go-sdk-contrib/commit/ce871021d0c45d3c992bb00b33c8b7a8e337e9a3))
+* error handing, add e2e tests ([#334](https://github.com/gioddiggi/go-sdk-contrib/issues/334)) ([dfc3b5a](https://github.com/gioddiggi/go-sdk-contrib/commit/dfc3b5a73e6708aa852a2f2651468de96a754694))
+* fix flagd dependencies ([#380](https://github.com/gioddiggi/go-sdk-contrib/issues/380)) ([b7baa69](https://github.com/gioddiggi/go-sdk-contrib/commit/b7baa6990e05f46637917d83b07dbe0f741d0036))
+* lint correction on tests ([#276](https://github.com/gioddiggi/go-sdk-contrib/issues/276)) ([b972274](https://github.com/gioddiggi/go-sdk-contrib/commit/b972274655638dd09c90b5974a9f8aca0b04ca13))
+* only reset state if necessary ([#126](https://github.com/gioddiggi/go-sdk-contrib/issues/126)) ([51b1a83](https://github.com/gioddiggi/go-sdk-contrib/commit/51b1a83a93311c4b377574176f3f3ed04a7eabb1))
+* remove custom tag (leftover) ([#740](https://github.com/gioddiggi/go-sdk-contrib/issues/740)) ([49ba246](https://github.com/gioddiggi/go-sdk-contrib/commit/49ba246cac6a13ff76a7cda4a6346982064c380e))
+* tidy workspaces ([#97](https://github.com/gioddiggi/go-sdk-contrib/issues/97)) ([c71a5ec](https://github.com/gioddiggi/go-sdk-contrib/commit/c71a5ec7686ec0572bb47f17dbca7e0ec48252d7))
+
+
+### ✨ New Features
+
+* allow ProviderOptions to be given to scenario initializations ([#113](https://github.com/gioddiggi/go-sdk-contrib/issues/113)) ([3c6c249](https://github.com/gioddiggi/go-sdk-contrib/commit/3c6c249f412c2fb1a841b36007bfd9f57a082eb4))
+* comprehensive flagd e2e testing framework with testcontainers integration ([#732](https://github.com/gioddiggi/go-sdk-contrib/issues/732)) ([e3ec17b](https://github.com/gioddiggi/go-sdk-contrib/commit/e3ec17bdc7140582582a5df1154b6044cbf5b640))
+* domain specific provider for e2e tests ([#443](https://github.com/gioddiggi/go-sdk-contrib/issues/443)) ([b77d0f5](https://github.com/gioddiggi/go-sdk-contrib/commit/b77d0f533cbb93a4f4056c392cd8f4a6b47501c0))
+* Eventing support for flagd provider ([#317](https://github.com/gioddiggi/go-sdk-contrib/issues/317)) ([6b373cb](https://github.com/gioddiggi/go-sdk-contrib/commit/6b373cb393729c6f1f2a31b334cf06fac65dd369))
+* flagd integration tests module ([#96](https://github.com/gioddiggi/go-sdk-contrib/issues/96)) ([cf69fa4](https://github.com/gioddiggi/go-sdk-contrib/commit/cf69fa4c2214caae34bb9592388b6918e09e451f))
+* flagd json eval suite ([#328](https://github.com/gioddiggi/go-sdk-contrib/issues/328)) ([d36f0c5](https://github.com/gioddiggi/go-sdk-contrib/commit/d36f0c50a003a7583bcfdd078219cd46fe7bd77d))
+* use symbolic links to bypass flagd receiving empty state in file changes ([#123](https://github.com/gioddiggi/go-sdk-contrib/issues/123)) ([9ad24f1](https://github.com/gioddiggi/go-sdk-contrib/commit/9ad24f10028173ebcbdde161a5aa9c8c8f71a9ed))
+
 ## [1.5.0](https://github.com/open-feature/go-sdk-contrib/compare/tests/flagd/v1.4.2...tests/flagd/v1.5.0) (2025-09-05)
 
 
